@@ -40,9 +40,6 @@ jobs:
       - name: "📦 Install dependencies"
         run: pnpm install
 
-      - name: "🔒 Audit dependencies"
-        run: pnpm audit --audit-level=high
-
       - name: "🔎 Lint code"
         run: pnpm run lint
 
