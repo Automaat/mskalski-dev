@@ -1,2 +1,6 @@
 [tools]
 node = "22"
+
+[tasks.dev]
+description = "Start blog locally with live reload"
+run = "npm run dev"
