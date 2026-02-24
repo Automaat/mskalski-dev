@@ -46,5 +46,8 @@ jobs:
       - name: "📝 Checking code format"
         run: pnpm run format:check
 
+      - name: "🔍 Type check"
+        run: pnpm exec astro check
+
       - name: "🚀 Build the project"
         run: pnpm run build
