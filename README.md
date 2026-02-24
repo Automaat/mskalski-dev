@@ -12,10 +12,10 @@ Built with [AstroPaper](https://github.com/satnaing/astro-paper) — a minimal, 
 
 ## Commands
 
-| Command          | Action                            |
-| :--------------- | :-------------------------------- |
-| `pnpm install`   | Install dependencies              |
-| `pnpm run dev`   | Start dev server at `localhost:4321` |
-| `pnpm run build` | Build production site to `./dist/` |
-| `pnpm run preview` | Preview build locally           |
-| `pnpm run lint`  | Lint with ESLint                  |
+| Command            | Action                               |
+| :----------------- | :----------------------------------- |
+| `pnpm install`     | Install dependencies                 |
+| `pnpm run dev`     | Start dev server at `localhost:4321` |
+| `pnpm run build`   | Build production site to `./dist/`   |
+| `pnpm run preview` | Preview build locally                |
+| `pnpm run lint`    | Lint with ESLint                     |
