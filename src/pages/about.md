@@ -3,35 +3,27 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+I'm Marcin Skalski — a platform engineer with 10+ years building distributed
+systems at scale.
 
-![Astro Paper](public/astropaper-og.jpg)
+By day, I'm a core maintainer of [CNCF Kuma](https://github.com/kumahq/kuma)
+service mesh and work on [Kong Mesh](https://konghq.com/products/kong-mesh)
+enterprise product. I've authored 13+ architecture decision records, led
+observability and performance initiatives, and spoke at
+[KubeCon EU 2025](https://mskalski.dev/public_speaking/).
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+I write about **distributed systems**, **service mesh internals**,
+**observability**, and increasingly about **AI infrastructure** — where
+service mesh patterns meet LLM serving, agentic workflows, and model routing.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Previously Engineering Manager at Allegro (Poland's largest e-commerce), where
+I built and led the Service Mesh platform team owning 1,500+ services processing
+2M+ RPS.
 
-## Features
+## What I'm Into Right Now
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
-
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+- Leading Kuma 3.0 observability redesign
+- Building multi-agent systems and MCP servers for fun — check my [GitHub](https://github.com/Automaat)
+- Exploring where service mesh meets AI infrastructure
+- Running [Głęboki Odczyt](https://www.youtube.com/@GlebokiOdczyt) — a fully
+  AI-generated Polish podcast (60+ episodes) on CS milestone papers
