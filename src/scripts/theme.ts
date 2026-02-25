@@ -2,6 +2,8 @@
 const THEME = "theme";
 const LIGHT = "light";
 const DARK = "dark";
+const NORD_LIGHT = "nord-light";
+const NORD_DARK = "nord-dark";
 
 // Initial color scheme
 // Can be "light", "dark", or empty string for system's prefers-color-scheme
@@ -15,10 +17,10 @@ function getPreferTheme(): string {
   // return initial color scheme if it is set (site default)
   if (initialColorScheme) return initialColorScheme;
 
-  // return user device's prefer color scheme (system fallback)
+  // return user device's prefer color scheme (system fallback) — Nord by default
   return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? DARK
-    : LIGHT;
+    ? NORD_DARK
+    : NORD_LIGHT;
 }
 
 // Use existing theme value from inline script if available, otherwise detect
@@ -77,7 +79,7 @@ function setThemeFeature(): void {
 
   // now this script can find and listen for clicks on the control
   document.querySelector("#theme-btn")?.addEventListener("click", () => {
-    themeValue = themeValue === LIGHT ? DARK : LIGHT;
+    themeValue = themeValue === NORD_LIGHT ? NORD_DARK : NORD_LIGHT;
     window.theme?.setTheme(themeValue);
     setPreference();
   });
@@ -108,7 +110,7 @@ document.addEventListener("astro:before-swap", event => {
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", ({ matches: isDark }) => {
-    themeValue = isDark ? DARK : LIGHT;
+    themeValue = isDark ? NORD_DARK : NORD_LIGHT;
     window.theme?.setTheme(themeValue);
     setPreference();
   });
