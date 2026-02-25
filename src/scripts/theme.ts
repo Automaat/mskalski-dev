@@ -1,7 +1,5 @@
 // Constants
 const THEME = "theme";
-const LIGHT = "light";
-const DARK = "dark";
 const NORD_LIGHT = "nord-light";
 const NORD_DARK = "nord-dark";
 
