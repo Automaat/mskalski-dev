@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://mskalski.dev/",
   desc: "Exploring AI, systems, and the craft of software.",
   title: "Marcin Skalski",
-  ogImage: "astropaper-og.jpg",
+  ogImage: undefined, // TODO: add personal OG image to public/ and reference here
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
