@@ -96,7 +96,8 @@
     @apply flex border bg-(--shiki-light-bg) text-(--shiki-light) outline-border [&_span]:text-(--shiki-light);
   }
 
-  html[data-theme="dark"] .astro-code {
+  html[data-theme="dark"] .astro-code,
+  html[data-theme="nord-dark"] .astro-code {
     @apply bg-(--shiki-dark-bg) text-(--shiki-dark) [&_span]:text-(--shiki-dark);
   }
 

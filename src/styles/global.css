@@ -2,6 +2,8 @@
 @import "./typography.css";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@custom-variant nord-light (&:where([data-theme=nord-light], [data-theme=nord-light] *));
+@custom-variant nord-dark (&:where([data-theme=nord-dark], [data-theme=nord-dark] *));
 
 :root,
 html[data-theme="light"] {
@@ -18,6 +20,22 @@ html[data-theme="dark"] {
   --accent: #ff6b01;
   --muted: #343f60;
   --border: #ab4b08;
+}
+
+html[data-theme="nord-light"] {
+  --background: #eceff4;
+  --foreground: #2e3440;
+  --accent: #5e81ac;
+  --muted: #e5e9f0;
+  --border: #d8dee9;
+}
+
+html[data-theme="nord-dark"] {
+  --background: #2e3440;
+  --foreground: #eceff4;
+  --accent: #88c0d0;
+  --muted: #3b4252;
+  --border: #4c566a;
 }
 
 @theme inline {
